@@ -33,7 +33,7 @@ class MyHomePage extends StatelessWidget {
         title: Text(title),
       ),
       body: SafeArea(
-        child: Column(
+        child: Row(
           children: [
             Container(
               width: 100,
