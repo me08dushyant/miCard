@@ -43,7 +43,7 @@ class MyHomePage extends StatelessWidget {
             ),
             Container(
               width: 100,
-              height: 100,
+              height: double.infinity,
               color: Colors.blue,
             ),
           ],
