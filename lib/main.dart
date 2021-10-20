@@ -42,6 +42,7 @@ class MyHomePage extends StatelessWidget {
               color: Colors.red,
             ),
             Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
                   width: 100,
