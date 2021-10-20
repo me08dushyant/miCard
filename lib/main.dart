@@ -34,6 +34,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: SafeArea(
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Container(
               width: 100,
