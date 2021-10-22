@@ -42,8 +42,8 @@ class MyHomePage extends StatelessWidget {
               Text('Dushyant Kr Singh'),
               Text('App Developer'),
               SizedBox(
-                  width: 50,
-                  height: 20,
+                  width: 80,
+                  height: 40,
                   child: Divider(
                     color: Colors.white60,
                   )),
