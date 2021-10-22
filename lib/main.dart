@@ -36,9 +36,7 @@ class MyHomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
-                backgroundImage: ImageProvider(
-                  child: AssetImage('images/avtaar.jpg'),
-                ),
+                backgroundImage: AssetImage('images/avtaar.jpg'),
                 radius: 50,
               ),
               Text('Dushyant Kr Singh'),
