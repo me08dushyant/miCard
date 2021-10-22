@@ -40,6 +40,7 @@ class MyHomePage extends StatelessWidget {
             radius: 50,
           ),
           Text('Dushyant Kr Singh'),
+          Text('App Developer'),
         ],
       )),
     );
