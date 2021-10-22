@@ -33,16 +33,20 @@ class MyHomePage extends StatelessWidget {
         title: Text(title),
       ),
       body: SafeArea(
+        child: Container(
+          color: Colors.amber,
           child: Column(
-        children: [
-          CircleAvatar(
-            backgroundColor: Colors.red,
-            radius: 50,
+            children: [
+              CircleAvatar(
+                backgroundColor: Colors.red,
+                radius: 50,
+              ),
+              Text('Dushyant Kr Singh'),
+              Text('App Developer'),
+            ],
           ),
-          Text('Dushyant Kr Singh'),
-          Text('App Developer'),
-        ],
-      )),
+        ),
+      ),
     );
   }
 }
