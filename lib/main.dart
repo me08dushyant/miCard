@@ -33,6 +33,7 @@ class MyHomePage extends StatelessWidget {
           width: double.infinity,
           color: Colors.teal,
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
                 backgroundColor: Colors.red,
