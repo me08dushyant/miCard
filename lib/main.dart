@@ -33,37 +33,13 @@ class MyHomePage extends StatelessWidget {
         title: Text(title),
       ),
       body: SafeArea(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Container(
-              width: 100,
-              height: double.infinity,
-              color: Colors.red,
-            ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  width: 100,
-                  height: 100,
-                  color: Colors.blue,
-                ),
-                Container(
-                  width: 100,
-                  height: 100,
-                  color: Colors.yellow,
-                ),
-              ],
-            ),
-            Container(
-              width: 100,
-              height: double.infinity,
-              color: Colors.blue,
-            ),
-          ],
-        ),
-      ),
+          child: Column(
+        children: [
+          CircleAvatar(
+            backgroundColor: Colors.red,
+          )
+        ],
+      )),
     );
   }
 }
