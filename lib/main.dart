@@ -36,7 +36,7 @@ class MyHomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
-                backgroundColor: Colors.red,
+                backgroundImage: Image.asset('iamges/avtaar.jpg'),
                 radius: 50,
               ),
               Text('Dushyant Kr Singh'),
