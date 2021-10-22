@@ -40,11 +40,13 @@ class MyHomePage extends StatelessWidget {
               ),
               Text('Dushyant Kr Singh'),
               Text('App Developer'),
-              Card(
-                child: Padding(
-                  margin: EdgeInsets.symmetric(vertical: 5, horizontal: 20),
-                  padding: EdgeInsets.symmetric(vertical: 5, horizontal: 20),
-                  child: ListTile(leading: Icon(Icons.arrow_drop_down_circle), title: Text('me08dushyant@gmail.com')),
+              Container(
+                margin: EdgeInsets.symmetric(vertical: 5, horizontal: 20),
+                child: Card(
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(vertical: 5, horizontal: 20),
+                    child: ListTile(leading: Icon(Icons.arrow_drop_down_circle), title: Text('me08dushyant@gmail.com')),
+                  ),
                 ),
               ),
             ],
