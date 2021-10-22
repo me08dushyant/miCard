@@ -40,6 +40,9 @@ class MyHomePage extends StatelessWidget {
               ),
               Text('Dushyant Kr Singh'),
               Text('App Developer'),
+              Card(
+                child: ListTile(leading: Icon(Icons.arrow_drop_down_circle), title: Text('me08dushyant@gmail.com')),
+              ),
             ],
           ),
         ),
