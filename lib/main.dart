@@ -28,12 +28,9 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        // The title text which will be shown on the action bar
-        title: Text(title),
-      ),
       body: SafeArea(
         child: Container(
+          width: Double.infinite,
           color: Colors.amber,
           child: Column(
             children: [
