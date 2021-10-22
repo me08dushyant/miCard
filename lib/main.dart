@@ -41,7 +41,7 @@ class MyHomePage extends StatelessWidget {
               Text('Dushyant Kr Singh'),
               Text('App Developer'),
               Container(
-                margin: EdgeInsets.symmetric(vertical: 5, horizontal: 20),
+                margin: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
                 child: Card(
                   child: Padding(
                     padding: EdgeInsets.symmetric(vertical: 5, horizontal: 20),
