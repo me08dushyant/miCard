@@ -30,7 +30,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Container(
-          width: Double.infinite,
+          width: double.infinity,
           color: Colors.amber,
           child: Column(
             children: [
