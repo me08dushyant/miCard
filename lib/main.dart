@@ -38,7 +38,8 @@ class MyHomePage extends StatelessWidget {
           CircleAvatar(
             backgroundColor: Colors.red,
             radius: 50,
-          )
+          ),
+          Text('Dushyant Kr Singh'),
         ],
       )),
     );
