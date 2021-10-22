@@ -31,7 +31,7 @@ class MyHomePage extends StatelessWidget {
       body: SafeArea(
         child: Container(
           width: double.infinity,
-          color: Colors.amber,
+          color: Colors.tealAccent,
           child: Column(
             children: [
               CircleAvatar(
