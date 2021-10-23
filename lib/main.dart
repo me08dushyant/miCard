@@ -21,8 +21,6 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatelessWidget {
-  final String title;
-
   const MyHomePage();
 
   @override
