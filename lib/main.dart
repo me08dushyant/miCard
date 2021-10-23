@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:english_words/english_words.dart';
 
 void main() => runApp(MyApp());
 
@@ -38,7 +39,7 @@ class MyHomePage extends StatelessWidget {
                 radius: 50,
               ),
               Text('Dushyant Kr Singh'),
-              Text('App Developer'),
+              Text(nouns.last),
               SizedBox(
                   width: 80,
                   height: 40,
