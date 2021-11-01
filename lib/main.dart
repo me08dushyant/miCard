@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:english_words/english_words.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,26 +17,56 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // A widget which will be started on application startup
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatelessWidget {
-  final String title;
-
-  const MyHomePage({required this.title});
+  const MyHomePage();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        // The title text which will be shown on the action bar
-        title: Text(title),
-      ),
-      body: Center(
-        child: Text(
-          'Hello, World!',
+      body: SafeArea(
+        child: Container(
+          width: double.infinity,
+          color: Colors.teal,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              CircleAvatar(
+                backgroundImage: AssetImage('images/avtaar.jpg'),
+                radius: 50,
+              ),
+              Text('Dushyant Kr Singh'),
+              Text(nouns.last),
+              SizedBox(
+                  width: 80,
+                  height: 40,
+                  child: Divider(
+                    color: Colors.white60,
+                  )),
+              Container(
+                margin: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
+                child: Card(
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(vertical: 5, horizontal: 20),
+                    child: ListTile(leading: Icon(Icons.arrow_drop_down_circle), title: Text('me08dushyant@gmail.com')),
+                  ),
+                ),
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
+                child: Card(
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(vertical: 5, horizontal: 20),
+                    child: ListTile(leading: Icon(Icons.add_business_sharp), title: Text('+91 90133667550')),
+                  ),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
